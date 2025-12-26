@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
-    <div className="bg-white">
+    <div className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white py-24 md:py-32">
+      <section className="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 text-white py-24 md:py-32">
         <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-6xl font-black mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-black mb-6">
             Our Security Services
           </h1>
-          <p className="text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl opacity-90 max-w-2xl font-bold leading-relaxed">
             Comprehensive security solutions designed to protect what matters
             most to you
           </p>
@@ -18,7 +18,7 @@ export default function Services() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 md:py-28 bg-white">
+      <section className="py-20 md:py-28 bg-gradient-to-b from-slate-900 to-slate-850">
         <div className="container mx-auto px-6">
           {/* Static Security Guards */}
           <div className="mb-20 pb-12 border-b border-slate-200">
