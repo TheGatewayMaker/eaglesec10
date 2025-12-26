@@ -110,16 +110,16 @@ export default function Home() {
             </div>
 
             {/* Bodyguards Card */}
-            <div className="bg-sky-500 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-sky-500 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
-                <Users className="w-14 h-14 mb-8 text-white" />
-                <h3 className="text-3xl font-black mb-6">Elite Bodyguards</h3>
-                <p className="text-base md:text-lg font-bold opacity-95 mb-8">
+                <Users className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">Elite Bodyguards</h3>
+                <p className="text-sm md:text-lg font-bold opacity-95 mb-6 md:mb-8 leading-relaxed">
                   SSG trained specialists for high-level protection
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-lg hover:text-sky-100 transition-colors duration-300"
+                  className="inline-block text-white font-black text-base md:text-lg hover:text-sky-100 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
@@ -128,16 +128,16 @@ export default function Home() {
             </div>
 
             {/* Mobile Escorts Card */}
-            <div className="bg-amber-600 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-amber-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
-                <Truck className="w-14 h-14 mb-8 text-white" />
-                <h3 className="text-3xl font-black mb-6">Mobile Escorts</h3>
-                <p className="text-base md:text-lg font-bold opacity-95 mb-8">
+                <Truck className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-white" />
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">Mobile Escorts</h3>
+                <p className="text-sm md:text-lg font-bold opacity-95 mb-6 md:mb-8 leading-relaxed">
                   Professional protection during movement and transportation
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-white font-black text-lg hover:text-amber-100 transition-colors duration-300"
+                  className="inline-block text-white font-black text-base md:text-lg hover:text-amber-100 transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
@@ -146,16 +146,16 @@ export default function Home() {
             </div>
 
             {/* Security Equipment Card */}
-            <div className="bg-slate-600 text-white p-14 rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <div className="bg-slate-600 text-white p-8 md:p-12 rounded-2xl md:rounded-3xl overflow-hidden relative group hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <div className="relative z-10">
-                <Lock className="w-14 h-14 mb-8 text-accent" />
-                <h3 className="text-3xl font-black mb-6">Security Equipment</h3>
-                <p className="text-base md:text-lg font-bold opacity-95 mb-8">
+                <Lock className="w-10 md:w-14 h-10 md:h-14 mb-6 md:mb-8 text-accent" />
+                <h3 className="text-2xl md:text-3xl font-black mb-4 md:mb-6">Security Equipment</h3>
+                <p className="text-sm md:text-lg font-bold opacity-95 mb-6 md:mb-8 leading-relaxed">
                   Advanced surveillance and security systems
                 </p>
                 <Link
                   to="/services"
-                  className="inline-block text-accent font-black text-lg hover:text-white transition-colors duration-300"
+                  className="inline-block text-accent font-black text-base md:text-lg hover:text-white transition-colors duration-300"
                 >
                   Learn More →
                 </Link>
