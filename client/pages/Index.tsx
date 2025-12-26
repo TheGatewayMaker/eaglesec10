@@ -414,22 +414,22 @@ export default function Home() {
       </section>
 
       {/* Location Section with Google Maps */}
-      <section className="py-20 md:py-48 bg-gradient-to-b from-slate-900 to-slate-950">
+      <section className="py-20 md:py-48 bg-background transition-colors duration-300">
         <div className="container mx-auto px-6">
           <div className="mb-16 md:mb-24">
             <div className="flex items-start gap-3 md:gap-4 mb-6 md:mb-8">
               <div className="w-1.5 md:w-2 h-10 md:h-12 bg-accent rounded-full flex-shrink-0 mt-1"></div>
-              <h2 className="text-3xl md:text-6xl font-black text-white leading-tight">
+              <h2 className="text-3xl md:text-6xl font-black text-foreground leading-tight">
                 Our Head Office Location
               </h2>
             </div>
-            <p className="text-sm md:text-xl font-bold text-gray-300 ml-6 md:ml-8 max-w-2xl leading-relaxed">
+            <p className="text-sm md:text-xl font-bold text-muted-foreground ml-6 md:ml-8 max-w-2xl leading-relaxed">
               Visit us at our Islamabad headquarters for consultations and
               inquiries
             </p>
           </div>
 
-          <div className="rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl transition-all duration-300 border-2 border-slate-700">
+          <div className="rounded-3xl overflow-hidden shadow-2xl hover:shadow-2xl transition-all duration-300 border-2 border-border">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13282.195486583572!2d72.99590472612844!3d33.66884932093898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95ff25ed8b53%3A0x7e482ec7e99bebe0!2sG-11%2C%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1766783293705!5m2!1sen!2s"
               width="100%"
