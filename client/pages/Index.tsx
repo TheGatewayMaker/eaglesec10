@@ -188,17 +188,17 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-slate-50">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-accent text-accent-foreground p-12 rounded-2xl text-center hover:shadow-xl transition-all">
+            <div className="bg-accent text-accent-foreground p-12 rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-5xl md:text-6xl font-black mb-3">30+</p>
               <p className="text-xl md:text-2xl font-bold">
                 Years of Experience
               </p>
             </div>
-            <div className="bg-primary text-primary-foreground p-12 rounded-2xl text-center hover:shadow-xl transition-all">
+            <div className="bg-primary text-primary-foreground p-12 rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-5xl md:text-6xl font-black mb-3">500+</p>
               <p className="text-xl md:text-2xl font-bold">Trained Personnel</p>
             </div>
-            <div className="bg-slate-900 text-white p-12 rounded-2xl text-center hover:shadow-xl transition-all">
+            <div className="bg-slate-900 text-white p-12 rounded-2xl text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
               <p className="text-5xl md:text-6xl font-black mb-3">100+</p>
               <p className="text-xl md:text-2xl font-bold">Corporate Clients</p>
             </div>
