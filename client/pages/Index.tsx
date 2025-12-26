@@ -212,7 +212,7 @@ export default function Home() {
                   Security Equipment
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Advanced surveillance and security systems
+                  We deploy state-of-the-art surveillance, access control, and security monitoring systems tailored to your facility. From CCTV networks to integrated security platforms, our technology solutions provide 24/7 monitoring and real-time threat detection for comprehensive protection.
                 </p>
               </div>
             </div>
