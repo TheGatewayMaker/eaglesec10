@@ -74,14 +74,16 @@ export default function Services() {
                   <img
                     src="https://i.ibb.co/FbrC5zqp/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-24 md:w-32 h-24 md:h-32 object-contain opacity-75"
+                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
                   />
                 </div>
                 <Link
                   to="/contact"
-                  className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-6 py-3 font-black text-sm md:text-base rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 hover:shadow-lg flex items-center gap-2 group-hover:gap-3"
+                  className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  Learn More <ArrowRight className="w-4 h-4" />
+                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                    Learn More
+                  </span>
                 </Link>
               </div>
             </div>
@@ -104,14 +106,16 @@ export default function Services() {
                   <img
                     src="https://i.ibb.co/FbrC5zqp/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-24 md:w-32 h-24 md:h-32 object-contain opacity-75"
+                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
                   />
                 </div>
                 <Link
                   to="/contact"
-                  className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-6 py-3 font-black text-sm md:text-base rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 hover:shadow-lg flex items-center gap-2 group-hover:gap-3"
+                  className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  Learn More <ArrowRight className="w-4 h-4" />
+                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                    Learn More
+                  </span>
                 </Link>
               </div>
               <div className="order-1 md:order-2">
@@ -212,14 +216,16 @@ export default function Services() {
                   <img
                     src="https://i.ibb.co/FbrC5zqp/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-24 md:w-32 h-24 md:h-32 object-contain opacity-75"
+                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
                   />
                 </div>
                 <Link
                   to="/contact"
-                  className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-6 py-3 font-black text-sm md:text-base rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 hover:shadow-lg flex items-center gap-2 group-hover:gap-3"
+                  className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  Learn More <ArrowRight className="w-4 h-4" />
+                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                    Learn More
+                  </span>
                 </Link>
               </div>
             </div>
@@ -242,14 +248,16 @@ export default function Services() {
                   <img
                     src="https://i.ibb.co/FbrC5zqp/eaglesecurityoriginallogomonochrome.png"
                     alt="Eagle Security Logo"
-                    className="w-24 md:w-32 h-24 md:h-32 object-contain opacity-75"
+                    className="w-32 md:w-44 h-32 md:h-44 object-contain opacity-100"
                   />
                 </div>
                 <Link
                   to="/contact"
-                  className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-6 py-3 font-black text-sm md:text-base rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 hover:shadow-lg flex items-center gap-2 group-hover:gap-3"
+                  className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  Learn More <ArrowRight className="w-4 h-4" />
+                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                    Learn More
+                  </span>
                 </Link>
               </div>
               <div className="order-1 md:order-2">
