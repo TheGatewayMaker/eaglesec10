@@ -49,18 +49,18 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6">
                 <Link
-                    to="/services"
-                    className="bg-accent text-accent-foreground px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:shadow-xl hover:shadow-accent/50 hover:-translate-y-0.5 transition-all duration-300 inline-block relative group overflow-hidden"
-                  >
-                    <span className="relative z-10">Explore Services</span>
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
-                  </Link>
+                  to="/services"
+                  className="bg-accent text-accent-foreground px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:shadow-xl hover:shadow-accent/50 hover:-translate-y-0.5 transition-all duration-300 inline-block relative group overflow-hidden"
+                >
+                  <span className="relative z-10">Explore Services</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-full group-hover:translate-x-0 transition-all duration-500"></div>
+                </Link>
                 <Link
                   to="/contact"
-                    className="border-3 border-accent text-accent px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:rounded-xl after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
-                  >
-                    Request Consultation
-                  </Link>
+                  className="border-3 border-accent text-accent px-8 sm:px-10 py-4 sm:py-5 font-black text-base sm:text-lg text-center rounded-xl hover:border-foreground hover:bg-accent/10 transition-all duration-300 inline-block relative after:absolute after:inset-0 after:border-3 after:border-accent after:rounded-xl after:scale-105 after:opacity-0 group-hover:after:scale-100 after:transition-all after:duration-300"
+                >
+                  Request Consultation
+                </Link>
               </div>
             </div>
 
@@ -104,7 +104,9 @@ export default function Home() {
                   to="/services"
                   className="absolute inset-0 flex items-center justify-center z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">Learn More</span>
+                  <span className="bg-accent text-accent-foreground px-8 py-3 font-black text-lg rounded-lg hover:shadow-lg transition-all duration-300">
+                    Learn More
+                  </span>
                 </Link>
               </div>
               <div className="relative z-10 p-8 md:p-10 group-hover:opacity-75 transition-opacity duration-300">
@@ -362,7 +364,9 @@ export default function Home() {
                       key={city}
                       className="bg-blue-600 text-white px-4 md:px-6 py-3 md:py-4 text-center hover:bg-blue-700 transition-colors duration-200"
                     >
-                      <p className="font-black text-base md:text-lg leading-tight">{city}</p>
+                      <p className="font-black text-base md:text-lg leading-tight">
+                        {city}
+                      </p>
                     </div>
                   ))}
                 </div>
