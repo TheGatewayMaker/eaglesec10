@@ -103,6 +103,14 @@
     @apply border-border;
   }
 
+  html {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family:
@@ -112,6 +120,7 @@
       "Segoe UI",
       sans-serif;
     font-weight: 600;
+    transition: background-color 300ms ease-in-out, color 300ms ease-in-out;
   }
 
   h1 {
