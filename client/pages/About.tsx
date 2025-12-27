@@ -1,5 +1,13 @@
 import { Link } from "react-router-dom";
-import { Target, Lightbulb, Compass, CheckCircle2, MapPin, Users, Shield } from "lucide-react";
+import {
+  Target,
+  Lightbulb,
+  Compass,
+  CheckCircle2,
+  MapPin,
+  Users,
+  Shield,
+} from "lucide-react";
 
 export default function About() {
   return (
@@ -38,20 +46,36 @@ export default function About() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-white">
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">30+</div>
-              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Years of Excellence</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">
+                30+
+              </div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">
+                Years of Excellence
+              </p>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">4000+</div>
-              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Dedicated Personnel</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">
+                4000+
+              </div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">
+                Dedicated Personnel
+              </p>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">50+</div>
-              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Offices Nationwide</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">
+                50+
+              </div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">
+                Offices Nationwide
+              </p>
             </div>
             <div className="text-center">
-              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">100%</div>
-              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">Client Satisfaction</p>
+              <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-2 sm:mb-3">
+                100%
+              </div>
+              <p className="text-xs sm:text-sm md:text-lg font-bold opacity-90">
+                Client Satisfaction
+              </p>
             </div>
           </div>
         </div>
@@ -63,30 +87,43 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center mb-12 sm:mb-16 animate-fade-in">
             <div>
               <div className="inline-block mb-4 sm:mb-6">
-                <span className="bg-accent/20 text-accent font-black px-3 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm rounded-lg">WHO WE ARE</span>
+                <span className="bg-accent/20 text-accent font-black px-3 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm rounded-lg">
+                  WHO WE ARE
+                </span>
               </div>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
                 Founded on Military Excellence
               </h2>
               <p className="text-muted-foreground leading-relaxed text-sm sm:text-base md:text-lg font-bold mb-4 sm:mb-6">
-                Eagle Security Guards was established in 1992 with a singular vision: to bring military-grade discipline and professionalism to civilian security. We're not just a security company—we're a legacy built on the foundation of Pakistan's armed forces.
+                Eagle Security Guards was established in 1992 with a singular
+                vision: to bring military-grade discipline and professionalism
+                to civilian security. We're not just a security company—we're a
+                legacy built on the foundation of Pakistan's armed forces.
               </p>
               <p className="text-muted-foreground leading-relaxed text-sm sm:text-base md:text-lg font-bold mb-6 sm:mb-8">
-                Licensed to operate nationwide across Pakistan and Azad Jammu & Kashmir, we've grown into one of the most trusted private security providers in the nation.
+                Licensed to operate nationwide across Pakistan and Azad Jammu &
+                Kashmir, we've grown into one of the most trusted private
+                security providers in the nation.
               </p>
 
               <div className="space-y-4">
                 <div className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors">
                   <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-0" />
-                  <span className="text-foreground font-bold">National Coverage with Local Expertise</span>
+                  <span className="text-foreground font-bold">
+                    National Coverage with Local Expertise
+                  </span>
                 </div>
                 <div className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors">
                   <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-0" />
-                  <span className="text-foreground font-bold">Ex-Army Officers Leading Strategic Operations</span>
+                  <span className="text-foreground font-bold">
+                    Ex-Army Officers Leading Strategic Operations
+                  </span>
                 </div>
                 <div className="flex gap-4 p-4 rounded-lg bg-accent/5 border-l-4 border-accent hover:bg-accent/10 transition-colors">
                   <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-0" />
-                  <span className="text-foreground font-bold">Government, Banking & Corporate Approved</span>
+                  <span className="text-foreground font-bold">
+                    Government, Banking & Corporate Approved
+                  </span>
                 </div>
               </div>
             </div>
@@ -109,7 +146,8 @@ export default function About() {
               The Eagle Foundation
             </h2>
             <p className="text-sm sm:text-base md:text-xl text-muted-foreground font-bold max-w-2xl mx-auto">
-              Our vision, mission, and values are the pillars upon which every decision, every action, and every commitment is built.
+              Our vision, mission, and values are the pillars upon which every
+              decision, every action, and every commitment is built.
             </p>
           </div>
 
@@ -119,9 +157,13 @@ export default function About() {
               <div className="flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 rounded-xl bg-accent/20 mb-6 sm:mb-8">
                 <Lightbulb className="w-6 sm:w-8 h-6 sm:h-8 text-accent" />
               </div>
-              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">Vision</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">
+                Vision
+              </h3>
               <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
-                To be the gold standard in professional security, recognized globally for vigilance, excellence, and the unwavering dedication of our personnel.
+                To be the gold standard in professional security, recognized
+                globally for vigilance, excellence, and the unwavering
+                dedication of our personnel.
               </p>
             </div>
 
@@ -133,9 +175,13 @@ export default function About() {
               <div className="flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 rounded-xl bg-accent/20 mb-6 sm:mb-8">
                 <Target className="w-6 sm:w-8 h-6 sm:h-8 text-accent" />
               </div>
-              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">Mission</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">
+                Mission
+              </h3>
               <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
-                To safeguard lives and assets through meticulously trained, disciplined, and vetted personnel, led by experienced ex-military commanders.
+                To safeguard lives and assets through meticulously trained,
+                disciplined, and vetted personnel, led by experienced
+                ex-military commanders.
               </p>
             </div>
 
@@ -147,9 +193,12 @@ export default function About() {
               <div className="flex items-center justify-center w-12 sm:w-14 h-12 sm:h-14 rounded-xl bg-accent/20 mb-6 sm:mb-8">
                 <Compass className="w-6 sm:w-8 h-6 sm:h-8 text-accent" />
               </div>
-              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">Commitment</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-foreground mb-3 sm:mb-4">
+                Commitment
+              </h3>
               <p className="text-muted-foreground leading-relaxed font-bold text-xs sm:text-sm md:text-base">
-                Delivering uncompromising reliability, efficiency, and integrity across all sectors, with zero tolerance for mediocrity.
+                Delivering uncompromising reliability, efficiency, and integrity
+                across all sectors, with zero tolerance for mediocrity.
               </p>
             </div>
           </div>
@@ -175,9 +224,12 @@ export default function About() {
                 <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
                   <Shield className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">Military Heritage</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                      Military Heritage
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      Personnel drawn from Pakistan's elite armed forces with unparalleled training and discipline.
+                      Personnel drawn from Pakistan's elite armed forces with
+                      unparalleled training and discipline.
                     </p>
                   </div>
                 </div>
@@ -185,9 +237,12 @@ export default function About() {
                 <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
                   <Users className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">Rigorous Vetting</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                      Rigorous Vetting
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      Comprehensive background screening ensures only the most qualified join our ranks.
+                      Comprehensive background screening ensures only the most
+                      qualified join our ranks.
                     </p>
                   </div>
                 </div>
@@ -195,9 +250,12 @@ export default function About() {
                 <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
                   <MapPin className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">Nationwide Network</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                      Nationwide Network
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      50+ offices across Pakistan ensures rapid response and local expertise wherever you are.
+                      50+ offices across Pakistan ensures rapid response and
+                      local expertise wherever you are.
                     </p>
                   </div>
                 </div>
@@ -205,9 +263,12 @@ export default function About() {
                 <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
                   <CheckCircle2 className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">Proven Track Record</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-1 sm:mb-2">
+                      Proven Track Record
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      Trusted by government agencies, financial institutions, and Fortune 500 companies.
+                      Trusted by government agencies, financial institutions,
+                      and Fortune 500 companies.
                     </p>
                   </div>
                 </div>
@@ -221,7 +282,8 @@ export default function About() {
                   Uncompromising Standards
                 </h2>
                 <p className="text-xs sm:text-sm md:text-lg text-muted-foreground font-bold">
-                  Every member of the Eagle family adheres to these pillars of excellence
+                  Every member of the Eagle family adheres to these pillars of
+                  excellence
                 </p>
               </div>
 
@@ -231,9 +293,12 @@ export default function About() {
                     1
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Absolute Integrity</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                      Absolute Integrity
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      Unwavering honesty in every interaction, every decision, and every service delivery.
+                      Unwavering honesty in every interaction, every decision,
+                      and every service delivery.
                     </p>
                   </div>
                 </div>
@@ -243,9 +308,12 @@ export default function About() {
                     2
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Relentless Vigilance</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                      Relentless Vigilance
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      24/7 alert and responsive protection, never lowering our guard, ever.
+                      24/7 alert and responsive protection, never lowering our
+                      guard, ever.
                     </p>
                   </div>
                 </div>
@@ -255,9 +323,12 @@ export default function About() {
                     3
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Professional Excellence</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                      Professional Excellence
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      Continuous training, certification, and adherence to international security standards.
+                      Continuous training, certification, and adherence to
+                      international security standards.
                     </p>
                   </div>
                 </div>
@@ -267,9 +338,12 @@ export default function About() {
                     4
                   </div>
                   <div>
-                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">Client-Centric Service</h4>
+                    <h4 className="text-sm sm:text-lg font-black text-foreground mb-0.5 sm:mb-1">
+                      Client-Centric Service
+                    </h4>
                     <p className="text-xs sm:text-sm text-muted-foreground font-bold">
-                      Your security needs drive everything we do, customized solutions for every scenario.
+                      Your security needs drive everything we do, customized
+                      solutions for every scenario.
                     </p>
                   </div>
                 </div>
@@ -290,7 +364,8 @@ export default function About() {
               Ready to Experience Eagle Security?
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground font-bold mb-10">
-              Discover how our comprehensive security solutions can protect what matters most to you.
+              Discover how our comprehensive security solutions can protect what
+              matters most to you.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
