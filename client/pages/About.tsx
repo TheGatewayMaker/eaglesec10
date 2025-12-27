@@ -162,18 +162,18 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-16">
             {/* Why Choose Us Section */}
             <div>
-              <div className="mb-12 text-center md:text-left">
-                <h2 className="text-3xl md:text-4xl font-black text-foreground mb-3">
+              <div className="mb-8 sm:mb-12 text-center md:text-left">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-foreground mb-2 sm:mb-3">
                   Why Organizations Trust Eagle
                 </h2>
-                <p className="text-base md:text-lg text-muted-foreground font-bold">
+                <p className="text-xs sm:text-sm md:text-lg text-muted-foreground font-bold">
                   What sets us apart in the security landscape
                 </p>
               </div>
 
-              <div className="space-y-5">
-                <div className="flex gap-5 p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
-                  <Shield className="w-8 h-8 text-accent flex-shrink-0 mt-1" />
+              <div className="space-y-4 sm:space-y-5">
+                <div className="flex gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl bg-accent/5 border border-accent/20 hover:border-accent hover:bg-accent/10 transition-all">
+                  <Shield className="w-6 sm:w-8 h-6 sm:h-8 text-accent flex-shrink-0 mt-0.5" />
                   <div>
                     <h4 className="text-lg font-black text-foreground mb-2">Military Heritage</h4>
                     <p className="text-muted-foreground font-bold">
