@@ -58,20 +58,20 @@ export default function About() {
       </section>
 
       {/* Who We Are Section */}
-      <section className="py-20 md:py-28 bg-background transition-colors duration-300">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16 animate-fade-in">
+      <section className="py-14 sm:py-20 md:py-28 bg-background transition-colors duration-300">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center mb-12 sm:mb-16 animate-fade-in">
             <div>
-              <div className="inline-block mb-6">
-                <span className="bg-accent/20 text-accent font-black px-4 py-2 rounded-lg">WHO WE ARE</span>
+              <div className="inline-block mb-4 sm:mb-6">
+                <span className="bg-accent/20 text-accent font-black px-3 sm:px-4 py-1 sm:py-2 text-xs sm:text-sm rounded-lg">WHO WE ARE</span>
               </div>
-              <h2 className="text-4xl md:text-5xl font-black text-foreground mb-8 leading-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-foreground mb-6 sm:mb-8 leading-tight">
                 Founded on Military Excellence
               </h2>
-              <p className="text-muted-foreground leading-relaxed text-base md:text-lg font-bold mb-6">
+              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base md:text-lg font-bold mb-4 sm:mb-6">
                 Eagle Security Guards was established in 1992 with a singular vision: to bring military-grade discipline and professionalism to civilian security. We're not just a security company—we're a legacy built on the foundation of Pakistan's armed forces.
               </p>
-              <p className="text-muted-foreground leading-relaxed text-base md:text-lg font-bold mb-8">
+              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base md:text-lg font-bold mb-6 sm:mb-8">
                 Licensed to operate nationwide across Pakistan and Azad Jammu & Kashmir, we've grown into one of the most trusted private security providers in the nation.
               </p>
 
