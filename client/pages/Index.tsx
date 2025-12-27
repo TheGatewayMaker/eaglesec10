@@ -16,7 +16,8 @@ export default function Home() {
     <div
       className="text-foreground"
       style={{
-        background: 'linear-gradient(to bottom, #ffffff 0%, #f5f5f5 25%, #d3d3d3 50%, #696969 75%, #1a1a1a 100%)'
+        background:
+          "linear-gradient(to bottom, #ffffff 0%, #f5f5f5 25%, #d3d3d3 50%, #696969 75%, #1a1a1a 100%)",
       }}
     >
       {/* Hero Section */}
@@ -121,7 +122,11 @@ export default function Home() {
                   Elite Bodyguards
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Our SSG-trained specialists deliver executive-level protection with tactical expertise and discretion. Every bodyguard undergoes rigorous military training and psychological evaluation to provide the highest standard of personal security for VIP clients and high-profile individuals.
+                  Our SSG-trained specialists deliver executive-level protection
+                  with tactical expertise and discretion. Every bodyguard
+                  undergoes rigorous military training and psychological
+                  evaluation to provide the highest standard of personal
+                  security for VIP clients and high-profile individuals.
                 </p>
               </div>
             </div>
@@ -153,7 +158,11 @@ export default function Home() {
                   Static Security Guards
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Our vetted security professionals provide round-the-clock on-site protection with military discipline and precision. Each guard undergoes comprehensive background screening and tactical training to ensure the safety and security of your facilities, personnel, and valuable assets.
+                  Our vetted security professionals provide round-the-clock
+                  on-site protection with military discipline and precision.
+                  Each guard undergoes comprehensive background screening and
+                  tactical training to ensure the safety and security of your
+                  facilities, personnel, and valuable assets.
                 </p>
               </div>
             </div>
@@ -185,7 +194,11 @@ export default function Home() {
                   Mobile Escorts
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  Our mobile escort teams provide seamless protection during transit and travel. We offer route planning, threat assessment, and coordinated security response for safe and secure movement, whether for business travel, executive commute, or convoy operations.
+                  Our mobile escort teams provide seamless protection during
+                  transit and travel. We offer route planning, threat
+                  assessment, and coordinated security response for safe and
+                  secure movement, whether for business travel, executive
+                  commute, or convoy operations.
                 </p>
               </div>
             </div>
@@ -217,7 +230,11 @@ export default function Home() {
                   Security Equipment
                 </h3>
                 <p className="text-base md:text-lg font-bold opacity-90 leading-relaxed text-muted-foreground">
-                  We deploy state-of-the-art surveillance, access control, and security monitoring systems tailored to your facility. From CCTV networks to integrated security platforms, our technology solutions provide 24/7 monitoring and real-time threat detection for comprehensive protection.
+                  We deploy state-of-the-art surveillance, access control, and
+                  security monitoring systems tailored to your facility. From
+                  CCTV networks to integrated security platforms, our technology
+                  solutions provide 24/7 monitoring and real-time threat
+                  detection for comprehensive protection.
                 </p>
               </div>
             </div>
